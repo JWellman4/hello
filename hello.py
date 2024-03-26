@@ -13,7 +13,7 @@ def load_data(file_path):
     return pd.read_csv(file_path)
 
 # Load the data
-df = load_data('streamlit-app\Correlation.csv')
+df = load_data('Correlation.csv')
 
 fig =px.scatter(
         df, 
